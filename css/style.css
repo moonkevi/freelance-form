@@ -17,6 +17,7 @@ body{
     background-color: #373f4d;
     padding: 30px;
     color: #fff;
+    border-radius: 10px;
 }
 
 .card h1{
@@ -28,4 +29,31 @@ body{
 .card p{
     font-size: 14px;
     width: 80%;
+}
+
+/* form part */
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+input[type="text"]{
+    width: 250px;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+button[type="submit"]{
+    width: 250px;
+    padding: 10px;
+    background: rgb(234, 175, 64);
+    text-align: left;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+
 }
